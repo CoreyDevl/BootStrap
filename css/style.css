@@ -533,3 +533,113 @@ header, .navbar{
   font-size: 16px;
 }
 }
+
+@media(max-width: 426px){
+  /*Slider*/
+  
+  header{
+    margin: 80px 0px 0px 0px;
+  }
+
+  #prime {
+   
+  top: 20%;
+    margin: 105px 0px 0px 0px;
+}
+
+  #mainSlider .carousel-caption{
+    top: 5%;
+  }
+
+  #mainSlider .carousel-caption h2{
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  #mainSlider .carousel-caption p{
+    display: none;
+  }
+  .carousel-caption .main-btn{
+    font-size: 14px;
+  }
+
+  /*about*/
+
+  .main-title{
+    font-size: 30px;
+  }
+
+  #about-area img{
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  /*data*/
+
+  #data-area{
+      width: 50%;
+  }
+
+  /*team*/
+  #team-area .col-md-3{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  /*apply*/
+
+  #apply-area{
+    height: auto;
+  }
+
+  #company-img{
+    display: none;
+  }
+
+  /*filter*/
+
+  #portfolio-area .filter-btn{
+    margin-bottom: 20px;
+  }
+
+   .project-box img{
+     display:table-row;
+    width: 50%;
+  }
+
+  /*news*/
+
+  #news-area .main-title{
+    font-size: 24px;
+  }
+  .news-form input, .form-control{
+    font-size: 16px;
+    width: 3px;
+
+  }
+
+  #news-btn{
+    width: 90px;
+  }
+
+  #news-area p{
+    font-size: 16px;
+  }
+
+  /*call to action*/
+
+  #call-area p, #call-area #call-btn {
+    font-size: 12px;
+    letter-spacing: 0;
+    margin: 0;
+    height: 40px;
+    width: 50%;
+  }
+
+  /*contact*/
+
+  .contact-box{
+    border: none;
+    margin-bottom: 0;
+  }
+}
